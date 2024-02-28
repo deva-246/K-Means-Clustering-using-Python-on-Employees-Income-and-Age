@@ -10,6 +10,30 @@ Whether you know it or not, artificial intelligence and machine learning are inf
   
   Clustering is a sort of unsupervised learning in which the references come from unlabeled datasets. In general, it is used to capture the relevant structure, underlying processes, and grouping of a dataset. Clustering is the process of dividing a population into many groups so that data points in the same groups are more similar to one another than data points in other groups. Clustering allows data scientists to uncover intrinsic groupings among unlabeled data. Though there are no specific criteria for a good clustering, it is entirely up to the user and how they want to use it for their specific requirements. It can be used to locate uncommon data points/outliers in the data, as well as to identify unknown features in order to organize the dataset appropriately.
 
+
+## Types of clustering 
+
+There are various clustering methods that can handle a wide range of unique data.
+
+## Density-based
+
+- Density-based clustering divides data into areas with high data point concentrations and areas with low data point concentrations. Essentially, the algorithm identifies and names clusters based on the density of data points.
+
+- The beautiful thing about this is that the clusters can take any shape. You are not limited to the predicted conditions.
+
+- Outliers are ignored by this sort of clustering technique since it does not attempt to assign them to clusters.
+
+## Distribution-based
+- A distribution-based clustering approach considers all data points to be part of a cluster based on their probability of belonging to that cluster.
+
+- When using a distribution-based clustering technique, each data point is regarded as a component of a cluster according to the likelihood that it is a part of a particular cluster.
+
+- This is how it operates: a cluster has a center, and a data point's likelihood of belonging to that cluster diminishes with increasing distance from the center.
+
+- A different kind of algorithm should be taken into consideration if you are unsure of the possible distribution of your data.
+
+
+
 ## K-Means-Clustering
 
 K-means clustering is the most used clustering algorithm. It is the most basic unsupervised learning algorithm, based on centroid calculations.

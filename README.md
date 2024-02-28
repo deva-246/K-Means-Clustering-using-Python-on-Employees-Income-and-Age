@@ -32,6 +32,17 @@ There are various clustering methods that can handle a wide range of unique data
 
 - A different kind of algorithm should be taken into consideration if you are unsure of the possible distribution of your data.
 
+## Centroid-oriented
+
+- The most common type of clustering is presumably centroid-based clustering. Although it is quick and effective, it is a little sensitive to the first parameters you give it.
+
+- These kinds of algorithms divide data points according to several data centroids. A cluster is formed from each data point according to its squared distance from the centroid. The most popular kind of clustering is this one.
+
+## Hierarchy-based
+
+- Usually, hierarchical data—such as that found in taxonomies or enterprise databases—is used for hierarchical-based clustering. In order to organize everything top-down, it creates a tree of clusters.Although it has more limitations than the other clustering techniques, this works well with particular sorts of data sets.
+
+
 
 
 # K-Means-Clustering

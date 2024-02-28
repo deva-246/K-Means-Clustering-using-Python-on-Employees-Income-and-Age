@@ -47,11 +47,11 @@ There are various clustering methods that can handle a wide range of unique data
 
 # K-Means-Clustering
 
-K-means clustering is the most used clustering algorithm. It is the most basic unsupervised learning algorithm, based on centroid calculations.
+- K-means clustering is the most used clustering algorithm. It is the most basic unsupervised learning algorithm, based on centroid calculations.
 
-This program aims to reduce the variability of data points inside a cluster. It is also the most common way for individuals to learn about unsupervised machine learning.
+- This program aims to reduce the variability of data points inside a cluster. It is also the most common way for individuals to learn about unsupervised machine learning.
 
-K-means works better with smaller data sets because it iterates over all of the data points. That is, if the data collection has a huge number of data points, classifying them will take longer.
+- K-means works better with smaller data sets because it iterates over all of the data points. That is, if the data collection has a huge number of data points, classifying them will take longer.
 
-This is how k-means clusters data points, and it does not scale well.
+- This is how k-means clusters data points, and it does not scale well.
 
